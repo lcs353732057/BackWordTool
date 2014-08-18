@@ -2,7 +2,11 @@
 <resources>
 
     <string name="app_name">BackWordTool</string>
-    <string name="action_settings">Settings</string>
     <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="splash_name">开心词场</string>
 
 </resources>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include
+        layout="@layout/title_top_layout"
+        android:layout_height="wrap_content"
+        android:id="@+id/title_top_layout"
+        android:layout_alignParentTop="true"
+        android:layout_width="fill_parent"></include>
+
+    <TextView
+        android:layout_marginTop="30dp"
+        android:id="@+id/word_title_textview"
+        android:text="Model"
+        android:textSize="24sp"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@+id/title_top_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <com.hj.backwordtool.widget.HJRadioGroup
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:padding="20dp"
+        android:id="@+id/subject_radiogroup"
+        android:orientation="vertical"
+        android:layout_below="@+id/word_title_textview"
+        android:layout_alignParentLeft="true">
+
+        <RadioButton
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="n.标志;符号;痕迹"
+            android:textSize="18sp"
+            android:background="@android:color/darker_gray"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:id="@+id/test_radioButton1" />
+
+        <RadioButton
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="n.标志;符号;痕迹"
+            android:layout_marginTop="10dp"
+            android:background="@android:color/darker_gray"
+            android:textSize="18sp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:id="@+id/test_radioButton2" />
+
+        <RadioButton
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="n.标志;符号;痕迹"
+            android:layout_marginTop="10dp"
+            android:background="@android:color/darker_gray"
+            android:textSize="18sp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:id="@+id/test_radioButton3" />
+
+        <RadioButton
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="n.标志;符号;痕迹"
+            android:layout_marginTop="10dp"
+            android:background="@android:color/darker_gray"
+            android:textSize="18sp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:id="@+id/test_radioButton4" />
+    </com.hj.backwordtool.widget.HJRadioGroup>
+</RelativeLayout>
